@@ -19,6 +19,6 @@ services:
       build:
         - cd "${TUGBOAT_ROOT}/frontend_new" && npm run build
         - mkdir -p /var/www/html
-        - rm /bad.file || "this is a bad command"
+        - rm /bad.file || echo "this is a bad command"
         - cp "${TUGBOAT_ROOT}/nginx.conf" /etc/nginx/conf.d/default.conf
         - cp -r "${TUGBOAT_ROOT}/frontend_new/build/." /var/www/html
