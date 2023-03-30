@@ -5,7 +5,7 @@ import { Wrapper, Content, Title } from "./styles";
 export default () => (
   <Wrapper>
     <Content>
-      <Title>About</Title>
+      <Title>Abouts</Title>
     </Content>
   </Wrapper>
 );
