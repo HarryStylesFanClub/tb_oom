@@ -24,6 +24,12 @@ services:
         - /purple
         - /lolwut
 
+    visualdiff:
+      - threshold:
+          desktop: 90
+          mobile: 80
+          tablet: 99
+
     # A set of commands to run while building this service
     commands:
       # Commands that set up the basic preview infrastructure
