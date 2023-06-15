@@ -18,14 +18,14 @@ services:
         - /dogfood
         - /killerwhales
 
+      slog:
+        - /food
+
       bob:
         - /blog
         - /cv
         - /purple
         - /lolwut
-
-      slog:
-        - /food
 
     visualdiff:
       threshold:
