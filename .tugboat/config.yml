@@ -4,12 +4,15 @@ services:
       - sandra
       - bob
       - slog
+      - dog
     # Use the available version of Apache by not specifying a version
     image: tugboatqa/nginx
     urls:
       :default:
         - /
         - /about
+
+      dog:
         - /info
 
       sandra:
