@@ -3,6 +3,7 @@ services:
     aliases:
       - sandra
       - bob
+      - slog
     # Use the available version of Apache by not specifying a version
     image: tugboatqa/nginx
     urls:
@@ -10,7 +11,6 @@ services:
         - /
         - /about
         - /info
-        - /food
 
       sandra:
         - /refrigerator
@@ -23,6 +23,9 @@ services:
         - /cv
         - /purple
         - /lolwut
+
+      slog:
+        - /food
 
     visualdiff:
       threshold:
