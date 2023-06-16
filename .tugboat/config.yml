@@ -21,7 +21,7 @@ services:
       # Commands that set up the basic preview infrastructure
       init:
         - curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
-        - apt-get install -y nodejs
+        - apt-get install -y nodejs npm
         # Link the document root to the expected path. This example links the
         # root of the git repository to the docroot
         - ln -snf "${TUGBOAT_ROOT}" "${DOCROOT}"
