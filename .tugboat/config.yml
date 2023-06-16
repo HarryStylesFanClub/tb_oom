@@ -1,20 +1,40 @@
 services:
   nginx:
+    aliases:
+      - sandra
+      - bob
+      - slog
+      - dog
     # Use the available version of Apache by not specifying a version
     image: tugboatqa/nginx
     urls:
-      - /
-      - /about
-      - /info
-      - /food
-      - /refrigerator
-      - /calendar
-      - /dogfood
-      - /killerwhales
-      - /blog
-      - /cv
-      - /purple
-      - /lolwut
+      :default:
+        - /
+        - /about
+
+      dog:
+        - /info
+
+      sandra:
+        - /refrigerator
+        - /calendar
+        - /dogfood
+        - /killerwhales
+
+      slog:
+        - /food
+
+      bob:
+        - /blog
+        - /cv
+        - /purple
+        - /lolwut
+
+    visualdiff:
+      threshold:
+        desktop: 90
+        mobile: 80
+        tablet: 99
 
     # A set of commands to run while building this service
     commands:

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.main`
   background-color: greenyellow;
   height: 100vh;
-  color: papayawhip;
+  color: #fffff7;
 `;
 
 export const Content = styled.div`

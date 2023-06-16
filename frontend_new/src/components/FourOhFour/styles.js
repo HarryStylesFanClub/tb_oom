@@ -13,5 +13,5 @@ export const Content = styled.div`
 
 export const Title = styled.h1`
   text-align: center;
-  font-size: 10rem;
+  font-size: calc(10rem + 0.1px);
 `;
