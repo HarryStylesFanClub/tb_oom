@@ -117,6 +117,8 @@ export default () => (
         atque voluptatibus repellendus sequi minus sunt aspernatur ex, animi
         mollitia sed cumque ab harum dolore deserunt ratione quae!
       </p>
+    </Content>
+    <Content>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ratione
         sit amet culpa quos veniam natus alias iste aspernatur odio expedita
@@ -228,6 +230,8 @@ export default () => (
         molestias voluptates facilis similique architecto praesentium
         consectetur ad? Quis.
       </p>
+    </Content>
+    <Content>
       <div>
         <img src="/logo512.png" loading="lazy" alt="logo" />
       </div>
