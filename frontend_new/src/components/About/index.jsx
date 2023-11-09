@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Content, Title } from "./styles";
+import { Wrapper, Content, Title, Image } from "./styles";
 
 export default () => (
   <Wrapper>
@@ -233,7 +233,7 @@ export default () => (
     </Content>
     <Content>
       <div>
-        <img src="/logo512.png" loading="lazy" alt="logo" />
+        <Image src="/logo512.png" loading="lazy" alt="logo" />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quos

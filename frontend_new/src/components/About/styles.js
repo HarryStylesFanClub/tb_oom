@@ -14,3 +14,7 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 10rem;
 `;
+
+export const Image = styled.img`
+  width: 200px;
+`;
