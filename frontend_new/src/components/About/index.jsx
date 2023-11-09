@@ -233,7 +233,13 @@ export default () => (
     </Content>
     <Content>
       <div>
-        <Image src="/logo512.png" loading="lazy" alt="logo" />
+        <Image
+          src="/logo512.png"
+          loading="lazy"
+          alt="logo"
+          width="200"
+          height="200"
+        />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quos

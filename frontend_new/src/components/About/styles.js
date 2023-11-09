@@ -16,6 +16,6 @@ export const Title = styled.h1`
 `;
 
 export const Image = styled.img`
-  width: 400px;
-  height: 400px;
+  /* width: 400px;
+  height: 400px; */
 `;
