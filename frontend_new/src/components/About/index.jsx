@@ -117,7 +117,9 @@ export default () => (
         atque voluptatibus repellendus sequi minus sunt aspernatur ex, animi
         mollitia sed cumque ab harum dolore deserunt ratione quae!
       </p>
-      <img src="/logo512.png" loading="lazy" alt="logo" />
+      <div>
+        <img src="/logo512.png" loading="lazy" alt="logo" />
+      </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quos
         voluptatum eum nisi? Recusandae molestias eos quibusdam beatae
