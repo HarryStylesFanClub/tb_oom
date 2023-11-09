@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Wrapper = styled.main`
   background-color: blueviolet;
-  height: 100vh;
   color: papayawhip;
 `;
 
