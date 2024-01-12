@@ -31,7 +31,6 @@ services:
           tee /etc/apt/sources.list.d/nodesource.list
         - apt-get update
         - apt-get install -yq nodejs
-        - npm install -g npm@10.2.3
         # Link the document root to the expected path. This example links the
         # root of the git repository to the docroot
         - ln -snf "${TUGBOAT_ROOT}" "${DOCROOT}"
