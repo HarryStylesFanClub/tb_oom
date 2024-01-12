@@ -1,5 +1,6 @@
 services:
   nginx:
+    subpath: true
     # Use the available version of Apache by not specifying a version
     image: tugboatqa/nginx
     urls:
@@ -15,6 +16,7 @@ services:
       - /cv
       - /purple
       - /lolwut
+      - /hållo
 
     # A set of commands to run while building this service
     commands:
